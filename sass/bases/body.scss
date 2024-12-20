@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+
+    #container {
+        width: 100%;
+        background-color: $dark_blue;
+        color: $white;
+        height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 400px;
+
+        @media screen and (min-width: map-get($breakpoints, desktop)) {
+            width: 1394px;
+          }
+    }
+}

@@ -1,0 +1,17 @@
+.img_desktop {
+    display: none;
+
+    @media screen and (min-width: map-get($breakpoints, desktop)) {
+        display: block;
+        margin-bottom: 50px;
+    }
+}
+
+.img_mobile {
+    display: block;
+    margin-bottom: 50px;
+
+    @media screen and (min-width: map-get($breakpoints, desktop)) {
+        display: none;
+    }
+}
